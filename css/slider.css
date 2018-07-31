@@ -1,0 +1,88 @@
+
+
+
+
+#slider{
+	width:500px;
+	top:100px;
+	position:absolute;
+	position: fixed;
+	z-index:20;
+}
+   
+#header{ 
+	width:260px;
+	height:420px;
+	position:absolute; 
+	right:0px; 
+	border:1px solid #18d26e;
+	margin-left:40px;
+	padding:20px 40px;
+	border-radius:3px;
+    background: #fff;
+	box-shadow: 0 0 8px gray;
+}
+
+
+#sidebar{
+	position:absolute;
+	top:180px;
+	left:113px;
+	box-shadow: 0 0 8px gray;
+}
+
+#sidebar1{
+	position:absolute;
+	top:180px;
+	left:113px;
+	box-shadow: 0 0 8px gray;
+
+}
+
+
+h3{
+	font-family: 'Roboto Slab', serif;
+}
+
+input[type=text]{ 
+	margin-top: 10px;
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+	border:1px solid #000;
+}
+input[type=email]{ 
+	margin-top: 10px;
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+	border:1px solid #000;
+}
+h4{
+	font-size:15px;
+}
+div#title{
+	position:absolute;
+	top:300px;
+	left:650px;
+	}
+textarea{
+	padding:6px;
+	font-size:15px;
+	border-radius:2px;
+	border:1px solid #000;
+	margin-top: 10px;
+	height:80px;
+	width:100%;
+}	
+
+.btn{
+	width:100%;
+	background:#000 ! important;
+	color:#fff ! important;
+}
+/*--------------------------------------
+		Advertisement div
+----------------------------------------*/

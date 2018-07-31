@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>About</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="aos.css">
+     <script type="text/javascript" src="aos.js"></script>
+		</head>
+
+		<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Easy To Entrepreneur</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="home.html">Home</a></li>
+        <li class="active"><a href="about.html">About us</a></li>
+        <li><a href="funding.html">Funding</a></li>
+        <li><a href="#">Mentors</a></li>
+        <li><a href="#">Enterprise connect</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- banner -->
+<div class="container-fluid banner">
+  <div class="content"data-aos="fade-down" data-aos-duration="700" data-aos-delay="700">
+    <h2>LOOKING TO BECOME AN ENTREPRNUER ?</h2>
+    <a href="funding.html"><button>JOIN WITH US</button></a>
+  </div> 
+</div>
+<section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+		  <p>Startups aims at building a cross-collaborative platform to enable startups to grow to the next level 
+		  by leveraging our network of investors, 
+		  mentors, industry experts, and enterprises.</p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-6 col-lg-6 col-sm-6" data-aos="fade-right" data-aos-duration="600" data-aos-delay="600">
+            <div class="about-col">
+              <div class="img">
+                <img src="images/about-mission.jpg" alt="image1" class="img-responsive">
+                <div class="icon"><i class="fa fa-eye"></i></div>
+              </div>
+              <h2 class="title">Our Vision</h2>
+              <p>To be India’s largest cross-collaborative platform, enabling startups to shift their growth orbits.
+               Startup is an ambitious undertaking by India’s premier IT industry body – NASSCOM. </p>
+			  <span id="toggle">Read More</span>
+			  <span id="text">
+			   <p>The initiative aims to establish a cross-collaborative platform that enables startups to grow to 
+			   the next level by leveraging our network of investors, mentors, industry experts, and enterprises. 
+			   We do this through our FAME 
+			   (Funding, Acceleration, Mentoring, and Enterprise connects) model.
+              </p>
+            </span>
+			</div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-sm-6" data-aos="fade-left" data-aos-duration="600" data-aos-delay="600">
+            <div class="about-col">
+              <div class="img">
+                <img src="images/about-plan.jpg" alt="image2" class="img-responsive">
+                <div class="icon"><i class="fa fa-eye"></i></div>
+              </div>
+              <h2 class="title">fame model</h2>
+              <p>The Company FAME model is designed to facilitate the ideal connection between startups and Funders, 
+			  Accelerators, Mentors, and Enterprises with complementary requirements.</p>
+              <span id="toggle">Read More</span>
+               <span id="text">
+                  <p>The framework offers members several advantages and opportunities to get ahead, 
+				  such as guaranteed pitching slots, investor connects (Investor 101), participation in startup forums, 
+				  showcases and thought-leadership round tables across 
+				  the country, and inclusion in our Investor Access Database.</p>
+				  <p>In addition to access to our mentor network, events such as weekly progress reviews, regular workshops on topics critical to startup success, and mentor connects (Mentor 101) ensure that startups receive the 
+				  guidance they need through their journey.</p>
+				  <p>Members are given opportunities to connect with enterprises through direct fast access to
+				  senior executives, customer showcase events, speaking opportunities, and delegations. 
+				  Access to executive mentoring, early technology, deep expertise, 
+				  and strategic investments and grants is also provided.</p>
+                  </span>
+            </div>
+          </div>
+
+         
+
+        </div>
+
+      </div>
+    </section>
+
+</div>
+<script>
+$(document).ready(function() {
+  $("#toggle").click(function() {
+    var elem = $("#toggle").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle").text("Read Less");
+      $("#text").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle").text("Read More");
+      $("#text").slideUp();
+    }
+  });
+});
+</script>
+<br>
+  <section id="services">
+      <div class="container">
+        <div class="row" >
+		<header class="section-header">
+          <h3>Programs</h3>
+		  </header>
+       <div class=""data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+      
+		  <div class="col-lg-1 col-md-1 col-sm-1 box">
+		  <h2 class="letter">01</h2>
+		  </div>
+		   <div class="col-lg-3 col-md-3 col-sm-3 box">
+            <h4 class="title">WAREHOUSE PROGRAM </h4>
+            <p class="description">This program provides a bundle of resources that every startup invariably needs 
+			in its initial stages. All essentials such as physical workspace, furniture, expert guidance, 
+			and networking opportunities are made available to startups under this program. <br><b>READ MORE</b></p>
+          </div>
+        </div>
+         
+         <div class=""data-aos="fade-up" data-aos-duration="700" data-aos-delay="700">
+          <div class="col-lg-1 col-md-1 col-sm-1 box">
+		  <h2 class="letter">02</h2>
+		  </div>
+		   <div class="col-lg-3 col-md-3 col-sm-3 box">
+            <h4 class="title">VIRTUAL PROGRAM</h4>
+            <p class="description">The Virtual Program is designed to incubate startups out of their own workspaces. 
+			It helps them scale, while support is offered in the form of a startup kit. Further,
+			the company is provided industry connects from an extensive network of evaluators and
+			mentors who are also investors, accelerators, and industry veterans. <b>READ MORE</b></p>
+          </div>
+          </div>
+
+
+          <div class=""data-aos="fade-up" data-aos-duration="900" data-aos-delay="900">
+          <div class="col-lg-1 col-md-1 col-sm-1 box">
+		  <h2 class="letter">03</h2>
+		  </div>
+		   <div class="col-lg-3 col-md-3 col-sm-3 box">
+            <h4 class="title">NASSCOM INDUSTRY PARTNERSHIP PROGRAM</h4>
+            <p class="description">The NIPP forges lasting relationships between large corporations and innovative 
+			technology ventures. It nurtures open innovation through strategically aligned curated connects.
+			The collaborative model includes mentor ships, workshops, and design reviews by experts,
+			in addition to long-term commitments, events, and annual meetings. <br><b>READ MORE</b></p>
+          </div>
+
+        </div>
+      </div>
+
+		<div class="row">
+      <div class=""data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1100">
+		   <div class="col-lg-1 col-md-1 col-sm-1 box">
+		  <h2 class="letter">04</h2>
+		  </div>
+		   <div class="col-lg-3 col-md-3 col-sm-3 box">
+            <h4 class="title">ROCKSTAR PROGRAM</h4>
+            <p class="description">This program encourages innovation by facilitating communication 
+			and collaboration between industries and the startup ecosystem. The aim of Program is to help India make a mark
+			in the global scenario as a hub of innovation. In this regard, it provides startups with connects, coverage, 
+			and credibility for international visibility and recognition. <b>READ MORE</b></p>
+          </div>
+        </div>
+          <div class=""data-aos="fade-up" data-aos-duration="1300" data-aos-delay="1300">
+          <div class="col-lg-1 col-md-1 col-sm-1 box">
+		  <h2 class="letter">05</h2>
+		  </div>
+		   <div class="col-lg-3 col-md-3 col-sm-3 box">
+            <h4 class="title">NASSCOM GAMING FORUM</h4>
+            <p class="description">The NGF was set up 10 years ago to provide a common platform to share best practices 
+			and knowledge with developers and businesses within the Indian gaming industry, especially the burgeoning indie
+			game dav community. NGF is today the de-facto industry body for games in India.<b>READ MORE</b></p>
+          </div>
+        </div>
+          <div class=""data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+          <div class="col-lg-1 col-md-1 col-sm-1 box">
+		  <h2 class="letter">06</h2>
+		  </div>
+		   <div class="col-lg-3 col-md-3 col-sm-3 box">
+            <h4 class="title">INNOTREK</h4>
+            <p class="description"> In this event, deserving startups are invited to be a part of a delegation that
+			visits Silicon Valley for a week to learn and get inspired. It is a fantastic opportunity for startups 
+			to witness first-hand how one of the oldest technology ecosystems in the world functions, and gain insights 
+			on scaling and forming global alliances. <b>READ MORE</b></p>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>EasyTo<br>Entreprenuer</h3>
+            <p>Startups aims at building a cross-collaborative platform to enable startups to grow to the next level
+			by leveraging our network of investors, mentors, industry experts, and enterprises..</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="home.html">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="funding.html">Funding</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="mentor.html">Mentor</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="Enterprise.html">Enterprise Connect</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Programs</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="about.html">Warehouse Program</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="about.html"> Virtual Program</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="about.html">Nasscom Industry Partnership</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="about.html"> Rockstar Program</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="about.html">Nasscom Gaming Forum</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="about.html">Innotrek</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe us to know about our upcoming updates.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>
+          </div>
+
+
+        </div>
+        <div class="social-links">
+            <h4>Connect with us</h4>
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="copyright">
+        &copy; 2018 EasyToEntreprenuer All rights reserved | Design by <span style="color:red">haqtotechnologies</span>
+      </div>
+    </div>
+  </footer>
+   <script type="text/javascript"> AOS.init();</script>
+
+
+		</body>
+		</html>
